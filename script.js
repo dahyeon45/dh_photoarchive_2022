@@ -14,6 +14,9 @@ const mainIntro=document.querySelector("#main-intro");
 const nextBtn=document.querySelector("#next-button");
 const prevBtn=document.querySelector("#prev-button");
 
+
+document.body.requestFullscreen();
+
 const explores=document.querySelectorAll(".explores"); //pages.
 const currentState = {
     "pageNum": 0,

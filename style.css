@@ -6,6 +6,10 @@
     visibility:hidden !important;
 }
 
+@font-face {
+    font-family: "Euphorigenic";
+    src: url("https://dhphotoarchive.s3.ap-northeast-2.amazonaws.com/euphorig.ttf");
+}
 
 body {
     margin:0px;
