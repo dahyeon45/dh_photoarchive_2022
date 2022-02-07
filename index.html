@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Inria+Serif:ital,wght@0,300;1,300;1,400&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>dahyeon's travel log</title>
+</head>
+<body>
+
+    <div id="loader" class="loader-hidden">
+        <span>Loading...</span>
+    </div>
+
+    <section id="main">
+        <div id="menu-bar" class="hidden">
+            <img id="s-logo" src="https://dhphotoarchive.s3.ap-northeast-2.amazonaws.com/dhlogo.svg">
+            <div id="menu">MENU</div>
+        </div>
+
+        <div id="main-intro">
+            <div id="video-container">
+                <video id="main-video" class="hidden" src="https://dhphotoarchive.s3.ap-northeast-2.amazonaws.com/paris/main_eiffel.mp4" 
+                autoplay loop muted></video>
+            </div>
+
+            <div id="title" class="hidden">
+                <span>Travel log</span>
+             </div>
+ 
+             <div id="main-detail" class="hidden">
+                <div id="music">
+                    <span>🎧 FKJ - Skyline </span>
+                </div>
+                <div id="detail">
+                    dahyeon's travel log.<br>
+                 Copyright© All Rights Reserved.</div>
+            </div>
+
+            <audio id="main-music" class="loader-hidden" controls type="audio/mp3" src="https://dhphotoarchive.s3.ap-northeast-2.amazonaws.com/FKJ+-+Skyline.mp3"></audio>
+
+        </div>
+
+        <div id="scroll-down" class="hidden">➡ Click to explore</div>
+        <div id="music-control" class="hidden">
+            <span id="turn-on">🔈</span>
+            <span id="turn-off" class="loader-hidden">🔊</span>
+        </div>
+
+    </section>
+
+
+    <div class="explores loader-hidden" id="exp-1">
+
+    </div>
+
+    <div class="explores loader-hidden" id="exp-2">
+
+    </div>
+
+    <div class="explores loader-hidden" id="exp-3">
+
+    </div>
+
+    <div class="explores loader-hidden" id="exp-4">
+
+    </div>
+
+    <div class="explores loader-hidden" id="exp-5">
+
+    </div>
+
+    <div class="explores loader-hidden" id="exp-6">
+
+    </div>   
+ 
+    <div id="next-button" class="loader-hidden">➡ Next</div>
+    <div id="prev-button" class="loader-hidden">⬅ Prev</div>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
