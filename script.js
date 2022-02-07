@@ -226,6 +226,7 @@ function loadVideo(url){
         video.loop="true"; 
         video.addEventListener('load', resolve(video));
         video.muted="true";
+        video.playsInline="true";
       });   
 }
 
